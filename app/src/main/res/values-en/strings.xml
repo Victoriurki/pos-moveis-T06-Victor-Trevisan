@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Truco Scorekeeper</string>
+
+    <!-- Main screen -->
+    <string name="jogador_1">Player 1</string>
+    <string name="jogador_2">Player 2</string>
+    <string name="mais_1">+1</string>
+    <string name="mais_3">+3</string>
+    <string name="mais_6">+6</string>
+    <string name="mais_9">+9</string>
+    <string name="mais_12">+12</string>
+    <string name="btn_historico">Move History</string>
+    <string name="btn_zerar">Reset History</string>
+    <string name="btn_nomes">Set Names</string>
+
+    <!-- History screen -->
+    <string name="titulo_historico">Move History</string>
+    <string name="partidas_ganhas">games won</string>
+
+    <!-- Player name screen -->
+    <string name="titulo_nomes">Set the Names</string>
+    <string name="label_jogador_1">Player 1:</string>
+    <string name="label_jogador_2">Player 2:</string>
+    <string name="btn_confirmar">Confirm</string>
+    <string name="nome_padrao">Player 1</string>
+    <string name="nome_padrao_2">Player 2</string>
+
+    <!-- Messages -->
+    <string name="msg_zerado">Scores, match history and names reset!</string>
+    <string name="msg_vitoria">%1$s won the match with %2$d points!</string>
+</resources>

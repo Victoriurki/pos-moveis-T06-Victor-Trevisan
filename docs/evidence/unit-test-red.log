@@ -1,0 +1,387 @@
+=== attempt 1 ===
+Downloading https://services.gradle.org/distributions/gradle-8.10.2-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebug
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:compileDebugKotlin NO-SOURCE
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:bundleDebugClassesToRuntimeJar
+
+> Task :app:compileDebugUnitTestKotlin FAILED
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:17:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:22:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:23:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:28:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:29:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:34:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:36:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:41:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:43:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:48:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:49:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:50:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:52:26 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:57:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:59:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:60:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:65:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:68:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:73:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:76:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:81:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:83:20 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:88:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:89:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:91:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:96:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:97:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:99:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:101:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:102:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:107:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:108:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:110:39 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:115:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:117:37 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:118:37 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:123:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:124:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:126:34 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:127:32 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:132:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:133:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:134:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:136:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:138:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:139:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:140:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:141:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:142:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:142:44 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:143:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:143:44 Unresolved reference 'Placar'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 1s
+18 actionable tasks: 18 executed
+EXITCODE=1
+=== attempt 2 ===
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugKotlin NO-SOURCE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:bundleDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+
+> Task :app:compileDebugUnitTestKotlin FAILED
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:17:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:22:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:23:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:28:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:29:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:34:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:36:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:41:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:43:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:48:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:49:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:50:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:52:26 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:57:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:59:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:60:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:65:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:68:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:73:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:76:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:81:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:83:20 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:88:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:89:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:91:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:96:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:97:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:99:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:101:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:102:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:107:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:108:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:110:39 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:115:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:117:37 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:118:37 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:123:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:124:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:126:34 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:127:32 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:132:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:133:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:134:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:136:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:138:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:139:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:140:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:141:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:142:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:142:44 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:143:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:143:44 Unresolved reference 'Placar'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+18 actionable tasks: 1 executed, 17 up-to-date
+EXITCODE=1
+=== attempt 3 ===
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugKotlin NO-SOURCE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:bundleDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+
+> Task :app:compileDebugUnitTestKotlin FAILED
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:17:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:22:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:23:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:28:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:29:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:34:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:36:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:41:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:43:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:48:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:49:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:50:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:52:26 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:57:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:59:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:60:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:65:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:68:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:73:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:76:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:81:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:83:20 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:88:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:89:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:91:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:96:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:97:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:99:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:101:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:102:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:107:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:108:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:110:39 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:115:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:117:37 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:118:37 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:123:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:124:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:126:34 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:127:32 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:132:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:133:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:134:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:136:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:138:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:139:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:140:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:141:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:142:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:142:44 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:143:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:143:44 Unresolved reference 'Placar'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+18 actionable tasks: 1 executed, 17 up-to-date
+EXITCODE=1
+=== attempt 4 ===
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugKotlin NO-SOURCE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:bundleDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+
+> Task :app:compileDebugUnitTestKotlin FAILED
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:17:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:22:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:23:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:28:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:29:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:34:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:36:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:41:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:43:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:48:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:49:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:50:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:52:26 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:57:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:59:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:60:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:65:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:68:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:73:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:76:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:81:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:83:20 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:88:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:89:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:91:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:96:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:97:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:99:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:101:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:102:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:107:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:108:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:110:39 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:115:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:117:37 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:118:37 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:123:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:124:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:126:34 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:127:32 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:132:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:133:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:134:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:136:9 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:138:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:139:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:140:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:141:25 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:142:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:142:44 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:143:22 Unresolved reference 'Placar'.
+e: file:///Users/victo/Documents/av-android-basico/app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt:143:44 Unresolved reference 'Placar'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1s
+18 actionable tasks: 1 executed, 17 up-to-date
+EXITCODE=1

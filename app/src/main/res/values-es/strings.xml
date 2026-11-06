@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Marcador de Truco</string>
+
+    <!-- Pantalla principal -->
+    <string name="jogador_1">Jugador 1</string>
+    <string name="jogador_2">Jugador 2</string>
+    <string name="mais_1">+1</string>
+    <string name="mais_3">+3</string>
+    <string name="mais_6">+6</string>
+    <string name="mais_9">+9</string>
+    <string name="mais_12">+12</string>
+    <string name="btn_historico">Hist. de Jugadas</string>
+    <string name="btn_zerar">Borrar Historial</string>
+    <string name="btn_nomes">Inf. Nombres</string>
+
+    <!-- Pantalla Historial -->
+    <string name="titulo_historico">Historial de Jugadas</string>
+    <string name="partidas_ganhas">partidas ganadas</string>
+
+    <!-- Pantalla Informar Nombres -->
+    <string name="titulo_nomes">Informe los Nombres</string>
+    <string name="label_jogador_1">Jugador 1:</string>
+    <string name="label_jogador_2">Jugador 2:</string>
+    <string name="btn_confirmar">Confirmar</string>
+    <string name="nome_padrao">Jugador 1</string>
+    <string name="nome_padrao_2">Jugador 2</string>
+
+    <!-- Mensajes -->
+    <string name="msg_zerado">Puntuaciones, historial de partidas y nombres borrados!</string>
+    <string name="msg_vitoria">%1$s ganó la partida con %2$d puntos!</string>
+</resources>
