@@ -3,105 +3,126 @@
     "criterion": "Q2 ao iniciar todo jogador comeca com 0 pontos",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.pontuacaoInicialEhZeroParaOsDoisJogadores",
-    "test_line": 21,
+    "test_line": 24,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q3 historico inicia contagem de partidas em zero",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.partidasGanhasIniciaisSaoZeroParaOsDoisJogadores",
-    "test_line": 27,
+    "test_line": 30,
+    "kind": "new-behavior"
+  },
+  {
+    "criterion": "revisao-achado-2 nomes padrao sao vazio = nome padrao localizado (Placar nao hardcodeia)",
+    "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
+    "test_name": "PlacarTest.nomesIniciaisSaoVaziosIndicandoPadraoLocalizado",
+    "test_line": 36,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q2 clicar botao de pontos acresce na pontuacao do Jogador 1",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.adicionarPontosJogador1IncrementaPontuacao",
-    "test_line": 33,
+    "test_line": 42,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q2 clicar botao de pontos acresce na pontuacao do Jogador 2",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.adicionarPontosJogador2IncrementaPontuacao",
-    "test_line": 40,
+    "test_line": 49,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q2 pontuacao acumula varios lances na mesma partida",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.adicionarPontosAcumulaVariosLancesNoMesmoJogador",
-    "test_line": 47,
+    "test_line": 56,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q2 pontuacao de um jogador independe da do outro",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.adicionarPontosEmUmJogadorNaoAlteraOOutro",
-    "test_line": 56,
+    "test_line": 65,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q2 partida termina apenas com pontuacao igual ou superior a 12",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.abaixoDeDozeNaoHaVitoria",
-    "test_line": 64,
+    "test_line": 73,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q2 pontuacao igual a 12 da a vitoria ao jogador",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.dozePontosMarcaVitoriaExata",
-    "test_line": 72,
+    "test_line": 81,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q2 pontuacao superior a 12 da a vitoria ao jogador",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.pontuacaoAcimaDeDozeTambemMarcaVitoria",
-    "test_line": 80,
+    "test_line": 89,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q2/Q3 vitoria incrementa partidas ganhas do vencedor",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.vitoriaIncrementaContadorDePartidasGanhasDoVencedor",
-    "test_line": 87,
+    "test_line": 96,
     "kind": "new-behavior"
   },
   {
-    "criterion": "Q2 apos a vitoria a pontuacao dos jogadores e zerada",
+    "criterion": "Q2 apos a vitoria a pontuacao dos jogadores e zerada (apos a mensagem: adicionarPontos nao zera; resetPontuacoes no dismiss zera)",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.vitoriaZeraAsPontuacoesDosDoisJogadores",
-    "test_line": 95,
+    "test_line": 104,
+    "kind": "new-behavior"
+  },
+  {
+    "criterion": "Q2 resetPontuacoes (fim da mensagem de vitoria) zera so as pontuacoes e preserva contadores e nomes",
+    "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
+    "test_name": "PlacarTest.resetPontuacoesPreservaContadoresENomes",
+    "test_line": 126,
     "kind": "new-behavior"
   },
   {
     "criterion": "D10 vitoria preserva nomes das equipes",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.vitoriaPreservaONomeDoVencedor",
-    "test_line": 106,
+    "test_line": 140,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q4 Confirmar altera os nomes das equipes",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.definirNomesAtualizaOsDoisNomes",
-    "test_line": 114,
+    "test_line": 149,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q4 novo nome substitui o nome anterior na tela principal",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.definirNomesSobrescreveNomeAnterior",
-    "test_line": 122,
+    "test_line": 157,
+    "kind": "new-behavior"
+  },
+  {
+    "criterion": "revisao-achado-6 definirNomes com nome em branco (apos trim) grava vazio = mantem padrao localizado",
+    "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
+    "test_name": "PlacarTest.definirNomesComBrancoMantemPadraoLocalizado",
+    "test_line": 166,
     "kind": "new-behavior"
   },
   {
     "criterion": "Q5 botao Zerar Historico restaura pontuacoes, contadores e nomes",
     "test_file": "app/src/test/java/br/edu/utfpr/truco/PlacarTest.kt",
     "test_name": "PlacarTest.zerarTudoRestauraPontuacoesPartidasENomes",
-    "test_line": 131,
+    "test_line": 174,
     "kind": "new-behavior"
   }
 ]

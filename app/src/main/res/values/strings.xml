@@ -16,7 +16,6 @@
 
     <!-- Tela Histórico -->
     <string name="titulo_historico">Histórico de Jogadas</string>
-    <string name="partidas_ganhas">partidas ganhas</string>
 
     <!-- Tela Informar Nomes -->
     <string name="titulo_nomes">Informe os Nomes</string>
@@ -29,5 +28,5 @@
     <!-- Mensagens -->
     <string name="msg_zerado">Pontuações, histórico de partidas e nomes zerados!</string>
     <string name="msg_vitoria">%1$s venceu a partida com %2$d pontos!</string>
-    <string name="fmt_historico_linha">%1$s: %2$d</string>
+    <string name="fmt_historico_linha">%1$s: %2$d partidas ganhas</string>
 </resources>

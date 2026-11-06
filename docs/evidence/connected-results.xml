@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="br.edu.utfpr.truco.MainActivityTest" tests="5" failures="0" errors="0" skipped="0" time="19.305" timestamp="2026-11-06T19:20:05" hostname="localhost">
+<testsuite name="br.edu.utfpr.truco.MainActivityTest" tests="6" failures="0" errors="0" skipped="0" time="26.37" timestamp="2026-11-06T19:43:14" hostname="localhost">
   <properties>
     <property name="device" value="flutter_emulator_2(AVD) - 16" />
     <property name="flavor" value="" />
     <property name="project" value=":app" />
   </properties>
-  <testcase name="informarNomesEConfirmarAtualizaTelaPrincipal" classname="br.edu.utfpr.truco.MainActivityTest" time="6.776" />
-  <testcase name="botaoZerarRestauraPontuacaoInicial" classname="br.edu.utfpr.truco.MainActivityTest" time="1.621" />
-  <testcase name="clicarMais1Jogador1AtualizaTextViewPontuacao" classname="br.edu.utfpr.truco.MainActivityTest" time="1.101" />
-  <testcase name="clicarMais1Mais3Mais6Jogador2AcumulaPontuacao" classname="br.edu.utfpr.truco.MainActivityTest" time="2.634" />
-  <testcase name="navegarAoHistoricoMostraContagemInicial" classname="br.edu.utfpr.truco.MainActivityTest" time="1.629" />
+  <testcase name="informarNomesEConfirmarAtualizaTelaPrincipal" classname="br.edu.utfpr.truco.MainActivityTest" time="4.882" />
+  <testcase name="botaoZerarRestauraPontuacaoInicial" classname="br.edu.utfpr.truco.MainActivityTest" time="3.065" />
+  <testcase name="clicarMais1Jogador1AtualizaTextViewPontuacao" classname="br.edu.utfpr.truco.MainActivityTest" time="2.394" />
+  <testcase name="clicarMais1Mais3Mais6Jogador2AcumulaPontuacao" classname="br.edu.utfpr.truco.MainActivityTest" time="2.696" />
+  <testcase name="vitoriaComMais12ExibeDialogoZeraPontuacaoAposMensagemEIncrementaHistorico" classname="br.edu.utfpr.truco.MainActivityTest" time="3.611" />
+  <testcase name="navegarAoHistoricoMostraContagemInicial" classname="br.edu.utfpr.truco.MainActivityTest" time="2.932" />
 </testsuite>

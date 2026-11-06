@@ -21,6 +21,9 @@ class NomesActivity : AppCompatActivity() {
         etNomeJogador2.setText(Placar.nomes[1])
 
         findViewById<MaterialButton>(R.id.btnConfirmar).setOnClickListener {
+            // Regra: nome em branco (apos trim) grava string vazia no Placar,
+            // que passa a exibir o nome padrao localizado (R.string.jogador_1
+            // / R.string.jogador_2) — documentado no README (secao 4).
             Placar.definirNomes(
                 nomeJogador1 = etNomeJogador1.text.toString().trim(),
                 nomeJogador2 = etNomeJogador2.text.toString().trim(),

@@ -78,17 +78,35 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun atualizarPontuacaoETela() {
-        findViewById<TextView>(R.id.tvNomeJogador1).text = Placar.nomes[0]
-        findViewById<TextView>(R.id.tvNomeJogador2).text = Placar.nomes[1]
+        findViewById<TextView>(R.id.tvNomeJogador1).text = nomeExibivel(0)
+        findViewById<TextView>(R.id.tvNomeJogador2).text = nomeExibivel(1)
         findViewById<TextView>(R.id.tvPontuacaoJogador1).text = Placar.pontuacoes[0].toString()
         findViewById<TextView>(R.id.tvPontuacaoJogador2).text = Placar.pontuacoes[1].toString()
+    }
+
+    /**
+     * Nome apresentado na tela: o nome customizado informado na tela de nomes
+     * ou, se vazio, o nome padrao localizado (R.string.jogador_1/jogador_2).
+     */
+    private fun nomeExibivel(jogador: Int): String {
+        val nome = Placar.nomes[jogador]
+        return if (nome.isBlank()) {
+            getString(if (jogador == 0) R.string.jogador_1 else R.string.jogador_2)
+        } else {
+            nome
+        }
     }
 
     private fun mensagemDeVitoria(jogador: Int) {
         MaterialAlertDialogBuilder(this)
             .setTitle(R.string.app_name)
-            .setMessage(getString(R.string.msg_vitoria, Placar.nomes[jogador], Placar.LIMITE_VITORIA))
-            .setPositiveButton(android.R.string.ok, null)
+            .setMessage(getString(R.string.msg_vitoria, nomeExibivel(jogador), Placar.LIMITE_VITORIA))
+            .setPositiveButton(android.R.string.ok) { _, _ ->
+                // Q2: a pontuacao e zerada APÓS a mensagem — por isso o
+                // placar atras do dialogo ainda mostra a partida vencida.
+                Placar.resetPontuacoes()
+                atualizarPontuacaoETela()
+            }
             .show()
     }
 }
