@@ -29,4 +29,5 @@
     <!-- Messages -->
     <string name="msg_zerado">Scores, match history and names reset!</string>
     <string name="msg_vitoria">%1$s won the match with %2$d points!</string>
+    <string name="fmt_historico_linha">%1$s: %2$d</string>
 </resources>
