@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="br.edu.utfpr.truco.MainActivityTest" tests="5" failures="0" errors="0" skipped="0" time="19.305" timestamp="2026-11-06T19:20:05" hostname="localhost">
+  <properties>
+    <property name="device" value="flutter_emulator_2(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="informarNomesEConfirmarAtualizaTelaPrincipal" classname="br.edu.utfpr.truco.MainActivityTest" time="6.776" />
+  <testcase name="botaoZerarRestauraPontuacaoInicial" classname="br.edu.utfpr.truco.MainActivityTest" time="1.621" />
+  <testcase name="clicarMais1Jogador1AtualizaTextViewPontuacao" classname="br.edu.utfpr.truco.MainActivityTest" time="1.101" />
+  <testcase name="clicarMais1Mais3Mais6Jogador2AcumulaPontuacao" classname="br.edu.utfpr.truco.MainActivityTest" time="2.634" />
+  <testcase name="navegarAoHistoricoMostraContagemInicial" classname="br.edu.utfpr.truco.MainActivityTest" time="1.629" />
+</testsuite>
