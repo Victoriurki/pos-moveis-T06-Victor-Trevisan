@@ -1,6 +1,7 @@
 # SDD — SDD-av-android-2026-2 — Marcador de Truco (Android nativo, Kotlin + Views XML)
 
 Trabalho final da disciplina de Android Básico (UTFPR — Campus Pato Branco).
+Autor: Victor Trevisan (usuário solicitante e dono do repositório).
 Nível de rito: L2 (sem Jira). Fonte primária: enunciado do PDF da avaliação (transcrito
 verbatim no contexto do ciclo) + requisitos explícitos do usuário.
 

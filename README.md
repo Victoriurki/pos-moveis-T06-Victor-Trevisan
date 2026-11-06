@@ -1,6 +1,6 @@
 # Marcador de Truco
 
-Projeto da avaliação final da disciplina de Android Básico (UTFPR — Campus Pato Branco): um marcador para o jogo de baralho Truco, em **Kotlin nativo com Views (XML)**, sem Jetpack Compose.
+**Autor: Victor Trevisan** — Projeto da avaliação final da disciplina de Android Básico (UTFPR — Campus Pato Branco): um marcador para o jogo de baralho Truco, em **Kotlin nativo com Views (XML)**, sem Jetpack Compose.
 
 ## 1. Sobre
 
